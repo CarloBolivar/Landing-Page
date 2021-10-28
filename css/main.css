@@ -1,0 +1,1166 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.vFreeMind {
+  margin:0;
+  width: 100%;
+  height: 3840px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Frame5 {
+  width: 100%;
+  height: 768px;
+  background: url("../images/Frame5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3072px;
+  left: 0px;
+  overflow: hidden;
+}
+.Block5 {
+  width: 100%;
+  height: 768px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.TDir {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 481px;
+  left: 745px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.TTel {
+  width: 124px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 404px;
+  left: 741px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.TCo {
+  width: 255px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 326px;
+  left: 741px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.TApe {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 251px;
+  left: 745px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.TNom {
+  width: 125px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 170px;
+  left: 743px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.TContac {
+  width: 229px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 88px;
+  left: 886px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 54px;
+  opacity: 1;
+  text-align: left;
+}
+.MarCont5 {
+  width: 512px;
+  height: 33px;
+  background: url("../images/v68_378.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 520px;
+  left: 741px;
+  overflow: hidden;
+}
+.Espacio51 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Espacio52 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Espacio53 {
+  width: 511px;
+  height: 32px;
+  background: url("../images/v68_381.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.MarCont4 {
+  width: 512px;
+  height: 33px;
+  background: url("../images/v68_374.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 441px;
+  left: 741px;
+  overflow: hidden;
+}
+.Espacio41 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Espacio42 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Espacio43 {
+  width: 511px;
+  height: 32px;
+  background: url("../images/v68_377.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.MarCont3 {
+  width: 511px;
+  height: 33px;
+  background: url("../images/v68_370.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 363px;
+  left: 741px;
+  overflow: hidden;
+}
+.Espacio31 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Espacio32 {
+  width: 511px;
+  height: 32px;
+  background: url("../images/v68_372.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.MarCont2 {
+  width: 514px;
+  height: 33px;
+  background: url("../images/v68_366.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 291px;
+  left: 741px;
+  overflow: hidden;
+}
+.Espacio21 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+}
+.Espacio22 {
+  width: 511px;
+  height: 32px;
+  background: url("../images/v68_368.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.MarCont1 {
+  width: 511px;
+  height: 33px;
+  background: url("../images/v68_362.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 213px;
+  left: 741px;
+  overflow: hidden;
+}
+.Espacio11 {
+  width: 511px;
+  height: 33px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Espacio12 {
+  width: 511px;
+  height: 32px;
+  background: url("../images/v68_364.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.BloqueEnvio {
+  width: 87px;
+  height: 51px;
+  background: rgba(132,146,166,1);
+  opacity: 1;
+  position: absolute;
+  top: 574px;
+  left: 956px;
+  overflow: hidden;
+}
+.TEnviar {
+  width: 64px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 583px;
+  left: 970px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 21px;
+  opacity: 1;
+  text-align: left;
+}
+.TDestacado {
+  width: 339px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 72px;
+  left: 174px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 54px;
+  opacity: 1;
+  text-align: left;
+}
+.IJunta {
+  width: 180px;
+  height: 182px;
+  background: url("../images/IJunta.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 196px;
+  left: 234px;
+  overflow: hidden;
+}
+.TFrases {
+  width: 434px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 419px;
+  left: 106px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.RectanguloB {
+  width: 100%;
+  height: 126px;
+  background: rgba(31,45,61,1);
+  opacity: 1;
+  position: absolute;
+  top: 642px;
+  left: 0px;
+}
+.TRedesSociales {
+  width: 257px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 666px;
+  left: 24px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 31px;
+  opacity: 1;
+  text-align: left;
+}
+.LogoP2 {
+  width: 149px;
+  height: 74px;
+  background: url("../images/LogoP2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 673px;
+  left: 1188px;
+  overflow: hidden;
+}
+.MarcoP {
+  width: 599px;
+  height: 494px;
+  background: url("../images/v68_391.png");
+  opacity: 1;
+  position: absolute;
+  top: 73px;
+  left: 697px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.IRedes {
+  width: 176px;
+  height: 34px;
+  background: url("../images/IRedes.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 720px;
+  left: 24px;
+  overflow: hidden;
+}
+.Frame4 {
+  width: 100%;
+  height: 768px;
+  background: url("../images/Frame4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2304px;
+  left: 0px;
+  overflow: hidden;
+}
+.BLock4 {
+  width: 100%;
+  height: 768px;
+  background: rgba(60,72,88,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.MBLOA {
+  width: 320px;
+  height: 497px;
+  background: url("../images/v64_102.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 201px;
+  left: 328px;
+  overflow: hidden;
+}
+.MBLOA1 {
+  width: 320px;
+  height: 497px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.MBLOA2 {
+  width: 319px;
+  height: 497px;
+  background: url("../images/v64_104.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.TFun0 {
+  width: 320px;
+  height: 192px;
+  background: url("../images/v64_105.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 415px;
+  left: 328px;
+  overflow: hidden;
+}
+.TFun01 {
+  width: 320px;
+  height: 192px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.TFun02 {
+  width: 319px;
+  height: 191px;
+  background: url("../images/v64_107.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.TFun1 {
+  width: 246px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 430px;
+  left: 348px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.TNivB {
+  width: 154px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 211px;
+  left: 411px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: left;
+}
+.CSub1 {
+  width: 277px;
+  height: 54px;
+  background: rgba(5,5,4,1);
+  opacity: 1;
+  position: absolute;
+  top: 625px;
+  left: 349px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.TGratis {
+  width: 193px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 285px;
+  left: 391px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 53px;
+  opacity: 1;
+  text-align: left;
+}
+.TSub1 {
+  width: 130px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 631px;
+  left: 422px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: left;
+}
+.MBLO {
+  width: 320px;
+  height: 497px;
+  background: url("../images/v64_111.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 201px;
+  left: 719px;
+  overflow: hidden;
+}
+.MBLO1 {
+  width: 320px;
+  height: 497px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.MBLO2 {
+  width: 319px;
+  height: 497px;
+  background: url("../images/v64_113.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.TFun2C {
+  width: 320px;
+  height: 190px;
+  background: url("../images/v64_114.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 416px;
+  left: 719px;
+  overflow: hidden;
+}
+.TFun2C1 {
+  width: 320px;
+  height: 190px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.TFun2C2 {
+  width: 71px;
+  height: 71px;
+  background: url("../images/v64_116.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 103px;
+  left: 80px;
+  overflow: hidden;
+}
+.TFun2C3 {
+  width: 319px;
+  height: 189px;
+  background: url("../images/v64_117.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  border: 0.6625767350196838px solid rgba(0,0,0,1);
+}
+.TFun2 {
+  width: 300px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 430px;
+  left: 739px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.TPre {
+  width: 115px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 211px;
+  left: 819px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: left;
+}
+.T10 {
+  width: 111px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 285px;
+  left: 823px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 53px;
+  opacity: 1;
+  text-align: left;
+}
+.TCosto {
+  width: 101px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 384px;
+  left: 826px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.CSub {
+  width: 277px;
+  height: 54px;
+  background: rgba(5,5,4,1);
+  opacity: 1;
+  position: absolute;
+  top: 625px;
+  left: 740px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.TSub {
+  width: 121px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 631px;
+  left: 818px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 26px;
+  opacity: 1;
+  text-align: left;
+}
+.MarcoP2 {
+  width: 792px;
+  height: 555px;
+  background: url("../images/v68_313.png");
+  opacity: 1;
+  position: absolute;
+  top: 174px;
+  left: 283px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.TSalud {
+  width: 409px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 106px;
+  left: 479px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 31px;
+  opacity: 1;
+  text-align: left;
+}
+.TRegistrate {
+  width: 208px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 47px;
+  left: 584px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 54px;
+  opacity: 1;
+  text-align: left;
+}
+.Frame3 {
+  width: 100%;
+  height: 768px;
+  background: url("../images/Frame3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1536px;
+  left: 0px;
+  overflow: hidden;
+}
+.Block3 {
+  width: 100%;
+  height: 768px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.TTOnline {
+  width: 308px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 506px;
+  left: 859px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.TOnline {
+  width: 260px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 446px;
+  left: 884px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.TTArticulos {
+  width: 308px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 503px;
+  left: 182px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.TArticulos {
+  width: 282px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 446px;
+  left: 205px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.TTForos {
+  width: 309px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 195px;
+  left: 859px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.TForos {
+  width: 186px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 135px;
+  left: 920px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.TTPremium {
+  width: 309px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 195px;
+  left: 188px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.TPremium {
+  width: 130px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 135px;
+  left: 281px;
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.PersonaM {
+  width: 209px;
+  height: 208px;
+  background: url("../images/PersonaM.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 262px;
+  left: 578px;
+  overflow: hidden;
+}
+.TBen {
+  width: 188px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 37px;
+  left: 594px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 54px;
+  opacity: 1;
+  text-align: left;
+}
+.Marco2 {
+  width: 100%;
+  height: 654px;
+  background: url("../images/v68_214.png");
+  opacity: 1;
+  position: absolute;
+  top: 96px;
+  left: 57px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.PsiOn {
+  width: 223px;
+  height: 126px;
+  background: url("../images/PsiOn.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 901px;
+  overflow: hidden;
+}
+.ARGRA {
+  width: 223px;
+  height: 126px;
+  background: url("../images/ARGRA.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 231px;
+  overflow: hidden;
+}
+.FOON {
+  width: 223px;
+  height: 126px;
+  background: url("../images/FOON.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  left: 901px;
+  overflow: hidden;
+}
+.IPremium {
+  width: 208px;
+  height: 147px;
+  background: url("../images/IPremium.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  left: 239px;
+  overflow: hidden;
+}
+.Frame2 {
+  width: 100%;
+  height: 768px;
+  background: url("../images/Frame2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 768px;
+  left: 0px;
+  overflow: hidden;
+}
+.Block2 {
+  width: 100%;
+  height: 768px;
+  background: rgba(60,72,88,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.TMision {
+  width: 383px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 48px;
+  left: 491px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 54px;
+  opacity: 1;
+  text-align: center;
+}
+.Sentado {
+  width: 908px;
+  height: 430px;
+  background: url("../images/Sentado.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 190px;
+  left: 118px;
+  overflow: hidden;
+}
+.TIdea {
+  width: 481px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 155px;
+  left: 789px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.TFrase {
+  width: 395px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 577px;
+  left: 828px;
+  font-family: Avenir, serif;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.Marco1 {
+  width: 100%;
+  height: 616px;
+  background: url("../images/v69_414.png");
+  opacity: 1;
+  position: absolute;
+  top: 117px;
+  left: 57px;
+  border: 1px solid rgba(255,255,255,1);
+}
+.Frame1 {
+  width: 100%;
+  height: 768px;
+  background: url("../images/v70_493.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Block1 {
+  width: 100%;
+  height: 768px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.LogoGrande {
+  width: 723px;
+  height: 442px;
+  background: url("../images/LogoGrande.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 49px;
+  overflow: hidden;
+}
+.TSomos {
+  width: 463px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 264px;
+  left: 811px;
+  font-family: Avenir, serif;
+  font-weight: 900;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.TDisponible {
+  width: 437px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 529px;
+  left: 824px;
+  font-family: Avenir, serif;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.Playstore {
+  width: 142px;
+  height: 107px;
+  background: url("../images/Playstore.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 623px;
+  left: 972px;
+  overflow: hidden;
+}
+.Barra {
+  width: 100%;
+  height: 126px;
+  background: rgba(31,45,61,1);
+  opacity: 1;
+  position: absolute;
+  top:  0px;
+  left: 0px;
+}
+.TAcerca {
+  width: 276px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 51px;
+  left: 1070px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.TRegistro {
+  width: 119px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 49px;
+  left: 905px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.TBeneficios {
+  width: 141px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 51px;
+  left: 718px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.THistoria {
+  width: 115px;
+  color: rgba(229,233,242,1);
+  position: absolute;
+  top: 49px;
+  left: 557px;
+  font-family: Bebas Neue, serif;
+  font-weight: 400;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.LogoP {
+  width: 149px;
+  height: 91px;
+  background: url("../images/LogoP.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 9px;
+  overflow: hidden;
+}
