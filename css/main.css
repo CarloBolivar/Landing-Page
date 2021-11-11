@@ -4,6 +4,74 @@
 body {
   font-size: 14px;
 }
+
+.nav-item
+{
+  margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+  color: white;
+  font-size: 40px;
+  font-family: Bebas Neue, serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active
+{
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: Bebas Neue, serif;
+}
+
+#navbarNav
+{
+  padding-right: 5%;
+}
+
+.bg-dark
+{
+  background-color: rgba(31,45,61,1) !important;
+}
+
+.main-cover
+{
+  position: relative;
+}
+
+.main-cover .container
+{
+  width: 85%;
+  padding-top: 5%;
+}
+
+.main-cover p
+{
+  position: relative;
+  font-family: Avenir, serif;
+  font-weight: bolder;
+  font-size: 32px;
+
+}
+
+.main-logo-xl
+{
+  width: 100%;
+}
+
+.sub-text
+{
+  font-size: 24px !important;
+  font-weight: normal !important;
+}
+
+.app-stores-images
+{
+  width: 142px;
+  height: 107px;
+}
+
 .vFreeMind {
   margin:0;
   width: 100%;
@@ -1044,6 +1112,7 @@ body {
   top: 0px;
   left: 0px;
 }
+
 .LogoGrande {
   width: 723px;
   height: 442px;
