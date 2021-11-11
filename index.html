@@ -12,17 +12,48 @@
     <link href="./css/main.css" rel="stylesheet" />
     
     <!-- Local Bootstrap 5.1.3 files -->
-    <link href="bootstrap_5.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap_5.1/css/bootstrap.min.css" rel="stylesheet">
 
     <title>FreeMind Landing Page</title>
 </head>
 
 <body>
 
+<nav class="navbar navbar-expand-md navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./images/LogoP.png" alt="" width="192" height="72" class="d-inline-block align-text-top">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end text-light" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Beneficios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Acerca de nosotros</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="FreeMind">
 
-    <div class="Frame1">
-        <div class="Block1"></div>
+<!--
+    <div class="container">
         <div class="LogoGrande"></div>
         <span class="TSomos">Somos un emprendimiento que esta embarcado en la mision de soventar y ayudar a personas con problemas de salud mental </span>
         <span class="TDisponible">Disponible ya en la Appstore y Playstore </span>
@@ -34,7 +65,7 @@
         <span class="THistoria">Historia</span>
         <div class="LogoP"></div>
     </div>
-
+-->
     <div class="Frame2">
         <div class="Block2"></div>
         <span class="TMision">Nuestra Mision</span>
@@ -149,9 +180,7 @@
     </div>
 
 </div>
-<!-- Bootstrap JS files, uncomment when needed
-<script src="bootstrap_5.1/js/bootstrap.bundle.min.js"></script>
--->
+<script src="./bootstrap_5.1/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
