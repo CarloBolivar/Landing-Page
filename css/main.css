@@ -54,9 +54,34 @@ p
   font-size: 32px;
 }
 
+.benefits p 
+{
+  font-family: Avenir, serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.benefit-title
+{
+  font-size: 32px !important;
+}
+
 .main-image-xl
 {
   width: 100%;
+}
+
+.main-image
+{
+  width: 40%;
+  margin: 0 auto;
+  max-height: 128px;
+}
+
+.benefit-description
+{
+  flex-direction: column;
+  padding: 0 25%;
 }
 
 .sub-text
@@ -89,12 +114,17 @@ p
   margin: 5%;
 }
 
-.our-mission-title-caption
+.benefits
+{
+  padding: 2% 0;
+}
+
+.title-caption
 {
   color: rgba(229,233,242,1);
-  font-family: Bebas Neue, serif;
-  font-weight: 400;
-  font-size: 54px;
+  font-family: Bebas Neue, serif !important;
+  font-weight: 400 !important;
+  font-size: 54px !important;
   margin: 0 auto !important;
 }
 
@@ -105,6 +135,15 @@ p
   max-width: 85%;
   padding: 5% 2%;
   border: 1px solid rgba(255,255,255,1);
+}
+
+.basic-border-box-dark
+{
+  margin: auto;
+  width: 85%;
+  max-width: 85%;
+  padding: 5% 2%;
+  border: 1px solid black;
 }
 
 .vFreeMind {
