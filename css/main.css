@@ -32,7 +32,7 @@ body {
 
 .bg-dark
 {
-  background-color: rgba(31,45,61,1) !important;
+  background-color: #4F97A5 !important;
 }
 
 .main-cover
@@ -113,13 +113,13 @@ p
 .our-mission
 {
   padding: 2% 0;
-  background-color: rgba(60,72,88,1);
+  background-color: #4F97A5;
 }
 
 .memberships
 {
   padding: 2% 0;
-  background-color: rgba(60,72,88,1);
+  background-color: #4F97A5;
   min-height: 100vh;
 }
 .our-mission p
