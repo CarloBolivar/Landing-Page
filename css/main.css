@@ -69,6 +69,7 @@ p
 .main-image-xl
 {
   width: 100%;
+  margin: 20px auto;
 }
 
 .main-image
@@ -76,6 +77,13 @@ p
   width: 40%;
   margin: 0 auto;
   max-height: 128px;
+}
+
+.main-image-lg
+{
+  width: 60%;
+  height: 50%;
+  margin: 0 auto;
 }
 
 .benefit-description
@@ -108,6 +116,12 @@ p
   background-color: rgba(60,72,88,1);
 }
 
+.memberships
+{
+  padding: 2% 0;
+  background-color: rgba(60,72,88,1);
+  min-height: 100vh;
+}
 .our-mission p
 {
   color: rgba(255,255,255,1);
@@ -144,6 +158,60 @@ p
   max-width: 85%;
   padding: 5% 2%;
   border: 1px solid black;
+}
+
+.subscriptions-box
+{
+  width: 45%;
+  max-width: 45%;
+}
+
+.border-box-dark
+{
+  margin: auto;
+  max-width: 480px;
+  height: 25vh;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.display-flex
+{
+  display: flex;
+}
+
+.memberships button
+{
+  width: 50%;
+  margin: auto;
+}
+
+.contact-us
+{
+  padding: 3%;
+}
+
+.contact-us input
+{
+  margin: 5px auto;
+  width: 60%;
+}
+
+.contact-us label
+{
+  margin: 2px auto;
+  width: 60%;
+}
+
+.contact-us h1
+{
+  margin: 5px auto;
+}
+
+.contact-us button
+{
+  width: 50%;
+  margin: 8px auto;
 }
 
 .vFreeMind {
