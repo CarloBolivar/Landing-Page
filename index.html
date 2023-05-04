@@ -1,151 +1,207 @@
+
+
 <!DOCTYPE html>
-<html lang="spanish">
-
+<html lang="en">
 <head>
-	<!-- Codificación de caracteres | Retrocompatibilidad | Responsive -->
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <link href="https://fonts.googleapis.com/css?family=Avenir&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
-    <title>FreeMind Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de la página</title>
+  <!-- Agrega el enlace a los archivos de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
-
 <body>
-
-<div class="FreeMind">
-
-    <div class="Frame1">
-        <div class="Block1"></div>
-        <div class="LogoGrande"></div>
-        <span class="TSomos">Somos un emprendimiento que esta embarcado en la mision de soventar y ayudar a personas con problemas de salud mental </span>
-        <span class="TDisponible">Disponible ya en la Appstore y Playstore </span>
-        <div class="Playstore"></div>
-        <div class="Barra"></div>
-        <span class="TAcerca">Acerca de nosotros</span>
-        <span class="TRegistro">Registro</span>
-        <span class="TBeneficios">Beneficios</span>
-        <span class="THistoria">Historia</span>
-        <div class="LogoP"></div>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+        <div class="container">
+          <img src="assets/logo.png" height="70" alt=""loading="lazy" />
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#historia">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#beneficios">Beneficios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#registro">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Acerca">Acerca de nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <!-- Seccion1-->
+  <section class="seccion1">
+    <div class="container1-fluid text-center">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <img src="ruta-de-la-imagen.png" alt="Imagen de ejemplo" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <h4>Somos un emprendimiento que está embarcado en la misión de solventar y ayudar a personas con problemas de salud mental</h4>
+            <button class="btn btn-primary">Regístrate</button>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Seccion2-->
+  <section class="seccion2">
+    <div class="container2">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="ruta/a/la/imagen.png">
+          </div>
+          <div class="col-md-6 text-center">
+            <h2>Título</h2>
+            <p>Descripción</p>
+          </div>
+        </div>
+      </div>      
+  </section>
+  <!-- Seccion3-->
+  <section class="seccion3">
+    <h2 class="text-center mb-5">Beneficios</h2>
+    <div class="container3">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="https://via.placeholder.com/150x150" class="rounded-circle mb-4" alt="Imagen Premium">
+                <h4 class="card-title mb-3">Premium</h4>
+                <p class="card-text">Obtén acceso a contenido exclusivo y de alta calidad, además de soporte personalizado.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="https://via.placeholder.com/200x200" class="rounded-circle mb-4" alt="Imagen">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="https://via.placeholder.com/150x150" class="rounded-circle mb-4" alt="Imagen Psicólogos">
+                <h4 class="card-title mb-3">Psicólogos Online</h4>
+                <p class="card-text">Recibe atención psicológica en línea de manera fácil y accesible, desde cualquier lugar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+  </section>
+  <!-- Seccion4-->
+  <section class="seccion4">
+    <div class="container text-center">
+        <h2>Regístrate</h2>
+        <h5>Salud accesible para todos</h5>
+        </div>
+    <div class="container4 text-center ">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Nivel Básico</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Gratis</h6>
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <td>Incluye:</td>
+                      <td>Acceso a 10 videos tutoriales</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Acceso a la comunidad de salud</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary">Subscribir</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Nivel Premium</h5>
+                <h6 class="card-subtitle mb-2 text-muted">$9.99/mes</h6>
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <td>Incluye:</td>
+                      <td>Acceso ilimitado a todos los videos</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Acceso a la comunidad de salud</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>1 sesión de asesoramiento al mes</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary">Subscribir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+  </section>
+  <!-- Seccion5-->
+  <section class="seccion5">
+    <div class="container5">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Contactanos</h2>
+            <p>Escríbenos y nos pondremos en contacto contigo a la brevedad posible.</p>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Ingresa tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Footer-->
+  <footer class="footer py-4 w-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <ul class="list-unstyled d-flex justify-content-start">
+            <li class="mx-2"><a href="#"><i class="fab fa-facebook fa-2x text-white"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fab fa-twitter fa-2x text-white"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fab fa-instagram fa-2x text-white"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fab fa-youtube fa-2x text-white"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img src="Assets/logo.png" alt="Logo" class="img-fluid float-md-end">
+        </div>
+      </div>
     </div>
-
-    <div class="Frame2">
-        <div class="Block2"></div>
-        <span class="TMision">Nuestra Mision</span>
-        <div class="Sentado"></div>
-        <span class="TIdea">Ser una plataforma de promocion, la cual busca interconectar psicologos clinicos para una rapida atencion a usuarios interesados, con el fin de inspirar y sobrellevar problemas psicologicos.</span>
-        <span class="TFrase">"Construiste en gran parte tu propia depresion. No te fue otorgada. Por lo tanto, puedes deconstruirla." Albert Ellis, psicoterapeuta y psicologo </span>
-        <div class="Marco1"></div>
-    </div>
-
-    <div class="Frame3">
-        <div class="Block3"></div>
-        <span class="TTOnline">Contamos con varios pisicologos con los cuales puedes separar un cita</span>
-        <span class="TOnline">Psicologos Online</span>
-        <span class="TTArticulos">Disfruta de varios articulos , guias y manuales de salud mental gratuitamente desde nuestra app</span>
-        <span class="TArticulos">Articulos Gratuitos</span>
-        <span class="TTForos">Foro en linea donde puedes conversar con otros pacientes sobre un topico y leer las opiniones de los profesionales</span>
-        <span class="TForos">Foros Online</span>
-        <span class="TTPremium">Disfruta de descuentos , arcticulos especiales y mas beneficios con nuestra menbresia mensual</span>
-        <span class="TPremium">Premium</span>
-        <div class="PersonaM"></div>
-        <span class="TBen">Beneficios</span>
-        <div class="Marco2"></div>
-        <div class="PsiOn"></div>
-        <div class="ARGRA"></div>
-        <div class="FOON"></div>
-        <div class="IPremium"></div>
-    </div>
-
-    <div class="Frame4" >
-        <div class="BLock4"></div>
-        <div class="MBLOA">
-            <div class="MBLOA1"></div>
-            <div class="MBLOA2"></div>
-        </div><div class="TFun0">
-        <div class="TFun01"></div>
-        <div class="TFun02"></div>
-
-    </div>
-        <span class="TFun1">Funciones:
-                              Guias de autoayuda
-                              Registro de tareas de ayuda
-                              Foros de ayuda colectiva
-                              Articulos de salud mental</span>
-        <span class="TNivB">Nivel basico</span>
-        <div class="CSub1"></div>
-        <span class="TGratis">GRATIS</span>
-        <span class="TSub1">Subscribir</span>
-        <div class="MBLO">
-            <div class="MBLO1"></div>
-            <div class="MBLO2"></div>
-        </div>
-        <div class="TFun2C">
-            <div class="TFun2C1"></div>
-            <div class="TFun2C2"></div>
-            <div class="TFun2C3"></div>
-        </div>
-        <span class="TFun2">Funciones (Adicionales al nivel basico):
-                              Asesor privado
-                              Descuento por cita con psicologos
-                              Chat interno
-                              Seguimiento de tu caso</span>
-        <span class="TPre">Premium</span>
-        <span class="T10">9.99</span>
-        <span class="TCosto">US$ por mes</span>
-        <div class="CSub"></div>
-        <span class="TSub">Subscribir</span>
-        <div class="MarcoP2"></div>
-        <span class="TSalud">Salud accesible para todos</span>
-        <span class="TRegistrate">Registrate</span>
-    </div>
-
-    <div class="Frame5">
-        <div class="Block5"></div>
-        <span class="TDir">Direccion:</span>
-        <span class="TTel">Telefono:</span>
-        <span class="TCo">Correo electronico:</span>
-        <span class="TApe">Apellidos:</span>
-        <span class="TNom">Nombre:</span>
-        <span class="TContac">Contactanos</span>
-        <div class="MarCont5">
-            <div class="Espacio51"></div>
-            <div class="Espacio52"></div>
-            <div class="Espacio53"></div>
-        </div>
-        <div class="MarCont4">
-            <div class="Espacio41"></div>
-            <div class="Espacio42"></div>
-            <div class="Espacio43"></div>
-        </div>
-        <div class="MarCont3">
-            <div class="Espacio31"></div>
-            <div class="Espacio32"></div>
-        </div>
-        <div class="MarCont2">
-            <div class="Espacio21"></div>
-            <div class="Espacio22"></div>
-        </div>
-        <div class="MarCont1">
-            <div class="Espacio11"></div>
-            <div class="Espacio12"></div>
-        </div>
-        <div class="BloqueEnvio"></div>
-        <span class="TEnviar">Enviar</span>
-        <span class="TDestacado">Frases destacadas</span>
-        <div class="IJunta"></div>
-        <span class="TFrases">En una mente desordenada, una buena salud es imposible (Marcus Tullius)</span>
-        <div class="RectanguloB"></div>
-        <span class="TRedesSociales">Redes Sociales</span>
-        <div class="LogoP2"></div>
-        <div class="MarcoP"></div>
-        <div class="IRedes"></div>
-    </div>
-
-</div>
-
+  </footer>
+  <!-- scripts Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
-
 </html>
+
